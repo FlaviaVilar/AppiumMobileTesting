@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appiumcourse.AppiumBasics">
+      <class name="appiumcourse.MisceallanousAppiumActions">
         <methods>
-          <include name="AppiumTest"/>
+          <include name="TearDown"/>
+          <include name="Misceallanous"/>
+          <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- appiumcourse.AppiumBasics -->
+      </class> <!-- appiumcourse.MisceallanousAppiumActions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
