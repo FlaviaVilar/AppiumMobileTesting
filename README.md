@@ -1,6 +1,6 @@
 # Appium Mobile Testing for Android 
 
-Project covering Appium features automating native Android apps.
+Project covering Appium features automating native Android apps
 
 
 ## Requisites
